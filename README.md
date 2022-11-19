@@ -2,6 +2,13 @@
 ## COVID: SQL Data Exploration
 COVID-19 world wide data between 2020-2021 Including cases, deaths and vaccination information. 
 
+Software used: 
+<li>Microsoft Excel: Dataset file to import into SQL Server. 
+<li>Microsoft SQL Server: For Data Exploration. 
+
+SQL functions used:
+<li>Joins, Aggregate Functions, Converting Data Types, CTE,  Windows Functions, Temp Table, Created View
+
 <img src="SQL_DataEx/1TotCasesVTotDeathsUK.png" width="600"><br>
 At the date of 31/12/20 in the United Kingdom 2,496235 people infected and 73622 total deaths. 
 
@@ -30,6 +37,6 @@ The first new vaccinations in Albania started around 13/1/2021 the first is 60 w
 <img src="SQL_DataEx/9usingTempTable.png" width="600"><br>
 Using Temp table to perform calculation on partition by in previous query.
 
-
+<img src="SQL_DataEx/10createdView.png" width="600"><br>
 Created a view so that it can be used to store data for visualizations.
 
