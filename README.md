@@ -32,7 +32,7 @@ Total cases 150,574,977 million vs 3,180,206 million overall across the globe we
 The first new vaccinations in Albania started around 13/1/2021 the first is 60 we get 60 then we add 78. 78 + 60 we get 138. It adds up every single consecutive one. When there is nulls or zeros it’s going to not add anything.
 
 <img src="SQL_DataEx/8CTERollingPoVac.png" width="600"><br>
-12% of the population in Albania is vaccinated. We (RollingPeopleVaccinated/Population)*100 to calculate the percentage, this increases per day. 
+12% of the population in Albania is vaccinated. We use (RollingPeopleVaccinated/Population)*100 to calculate the percentage, this increases per day. 
 
 <img src="SQL_DataEx/9usingTempTable.png" width="600"><br>
 Using Temp table to perform calculation on partition by in previous query.
